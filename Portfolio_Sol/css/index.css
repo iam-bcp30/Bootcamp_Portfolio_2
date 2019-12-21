@@ -1,0 +1,26 @@
+.jumbotron {
+    height: calc(60vh);
+    /*min-height: 500px;*/
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-div{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background-color: yellow;
+    opacity:.7;
+ }
+
+ .navbar-custom { 
+    background-color: #011627; 
+}
+
+#breadcrumbs {
+    margin: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
