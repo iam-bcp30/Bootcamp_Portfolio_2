@@ -88,6 +88,14 @@ footer {
     height: 70px;
     width: 100%;
     z-index: 100;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.social {
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Media Queries */
