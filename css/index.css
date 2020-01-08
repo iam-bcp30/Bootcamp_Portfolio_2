@@ -20,7 +20,7 @@ body {
 /* Jumbotron */
 
 .jumbotron {
-    height: calc(60vh);
+    height: calc(90vh);
     background-repeat: repeat;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ body {
     width: 100%;
     position:absolute;
     background-color: #F06543;
-    opacity:.7;
+    
  }
 
 .navbar-custom { 
@@ -80,6 +80,19 @@ h5 {
 
 .cardContainer {
     padding-bottom: 15px;
+}
+
+.card {
+    border: none;
+}
+
+/* table */
+.table {
+    background-color: #F1F2EB;
+}
+
+.borderless td, .borderless th {
+    border: none;
 }
 
 /* footer */
